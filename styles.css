@@ -22,7 +22,6 @@ img {
 }
 
 nav {
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -52,7 +51,7 @@ a:hover {
     justify-content: center;
     background-image: url(/images/backgroung_image.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 400px;
 }
 
 h1 {
@@ -71,6 +70,43 @@ h1 {
 
 .bullet-points {
     display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 5em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+article {
+    text-align: center;
+    width: 30%;
+}
+
+article > p {
+    font-size: .8em;
+    margin: 0 20px;
+}
+
+figure {
+    width: 70%;
+    margin: 0 auto;
+}
+
+blockquote {
+    font-size: 1.3em;
+    text-align: center;
+    color: rgb(83, 80, 80);
+}
+
+figcaption {
+    text-align: center;
+    color: rgb(83, 80, 80);
+    margin-bottom: 15px;
 }
 
 /* Footer */
+

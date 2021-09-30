@@ -1,0 +1,49 @@
+/* Règles générales sur le body */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+ 
+header, ul, nav {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    margin-top: .5em;
+}
+
+img {
+    max-width: 30%;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-left: 2em;   
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: rgb(140, 0, 255);  
+}
+
+/* Main */
+
+
+/* Footer */

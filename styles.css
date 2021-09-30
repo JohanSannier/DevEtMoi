@@ -8,7 +8,7 @@ body {
 
 /* Header */
  
-header, ul, nav {
+header, nav ul, nav {
     display: flex;
 }
 
@@ -25,11 +25,11 @@ nav {
     align-items: center;
 }
 
-ul {
+nav ul {
     list-style: none;
 }
 
-li {
+nav li {
     margin-left: 2em;   
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    color: rgb(140, 0, 255);  
+    color: rgb(47, 15, 134);  
 }
 
 /* Main */
@@ -81,7 +81,7 @@ h2 {
     font-weight: 400;
 }
 
-article {
+.bullet-points article {
     text-align: center;
     width: 30%;
 }
@@ -110,3 +110,65 @@ figcaption {
 
 /* Footer */
 
+footer {
+    background-color: rgba(91,52,158,255);
+}
+
+article > h3, .social {
+    color: rgb(157, 128, 236);
+}
+
+article li a, .footer-text, .copyright {
+    color:white;
+}
+
+.copyright {
+    font-size: smaller;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+}
+
+i {
+    font-size: 2em;
+    margin: 10px 35px;
+    color: rgb(157, 128, 236);
+}
+
+i:hover {
+    color:rgb(47, 15, 134);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li::before {  
+    /* Création d'un bullet point pour changer sa couleur */
+    content: "• ";
+    color: white;
+}
+
+article > h3 {
+    text-align: center;
+}
+
+.address {
+    font-size: 1em;
+}
